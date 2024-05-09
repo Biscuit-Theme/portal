@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/biscuit.ricers.club/static/css/main.dac04fa3.css",
-    "main.js": "/biscuit.ricers.club/static/js/main.de8a23d0.js",
-    "static/media/CreatoDisplay-ExtraBold.ttf.woff": "/biscuit.ricers.club/static/media/CreatoDisplay-ExtraBold.ttf.785242c17906c6fdb6f2.woff",
-    "static/media/logo.svg": "/biscuit.ricers.club/static/media/logo.e29e844e149f009467cf04034ec1f11a.svg",
-    "index.html": "/biscuit.ricers.club/index.html",
-    "main.dac04fa3.css.map": "/biscuit.ricers.club/static/css/main.dac04fa3.css.map",
-    "main.de8a23d0.js.map": "/biscuit.ricers.club/static/js/main.de8a23d0.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.dac04fa3.css",
-    "static/js/main.de8a23d0.js"
-  ]
+    "main.css": "/static/css/main.be95438f.chunk.css",
+    "main.js": "/static/js/main.fa205999.chunk.js",
+    "main.js.map": "/static/js/main.fa205999.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.2cba4cd7.chunk.js": "/static/js/2.2cba4cd7.chunk.js",
+    "static/js/2.2cba4cd7.chunk.js.map": "/static/js/2.2cba4cd7.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.76e626c341d6282deafa93d42f3e7b07.js": "/precache-manifest.76e626c341d6282deafa93d42f3e7b07.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.be95438f.chunk.css.map": "/static/css/main.be95438f.chunk.css.map",
+    "static/media/App.css": "/static/media/CreatoDisplay-ExtraBold.ttf.7584513c.woff",
+    "static/media/logo.svg": "/static/media/logo.0644ffd8.svg"
+  }
 }
