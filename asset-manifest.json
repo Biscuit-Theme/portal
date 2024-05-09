@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/biscuit.ricers.club/static/css/main.dac04fa3.css",
+    "main.js": "/biscuit.ricers.club/static/js/main.de8a23d0.js",
+    "static/media/CreatoDisplay-ExtraBold.ttf.woff": "/biscuit.ricers.club/static/media/CreatoDisplay-ExtraBold.ttf.785242c17906c6fdb6f2.woff",
+    "static/media/logo.svg": "/biscuit.ricers.club/static/media/logo.e29e844e149f009467cf04034ec1f11a.svg",
+    "index.html": "/biscuit.ricers.club/index.html",
+    "main.dac04fa3.css.map": "/biscuit.ricers.club/static/css/main.dac04fa3.css.map",
+    "main.de8a23d0.js.map": "/biscuit.ricers.club/static/js/main.de8a23d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dac04fa3.css",
+    "static/js/main.de8a23d0.js"
+  ]
+}
