@@ -1,0 +1,35 @@
+.button {
+    background: #221E1E;
+    border: 2px solid transparent;
+    border-image: repeating-linear-gradient(
+        45deg,
+        #ca3f3f 0%,
+        #ca3f3f 11.11%,
+        #e56a3b 11.11%,
+        #e56a3b 22.22%,
+        #e29c44 22.22%,
+        #e29c44 33.33%,
+        #999e56 33.33%,
+        #999e56 44.44%,
+        #629387 44.44%,
+        #629387 55.55%,
+        #517894 55.55%,
+        #517894 66.66%,
+        #4a5a8d 66.66%,
+        #4a5a8d 77.77%,
+        #9e569a 77.77%,
+        #9e569a 88.88%,
+        #c55496 88.88%,
+        #c55496 100%
+    ) 1;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-family: 'CreatoDisplay', sans-serif;
+    transition: background-position 0.5s;
+}

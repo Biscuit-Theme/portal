@@ -1,0 +1,116 @@
+@import "./style/buttonGlide.css";
+:root {
+  --gloss-box-vertical-size: 60%;
+  --gloss-box-horizontal-ratio: 0.5;
+  --internal-blur-intensity: 10px;
+  --external-blur-intensity: 5px;
+}
+
+@font-face {
+  font-family: 'CreatoDisplay';
+  src: url('./assets/CreatoDisplay-ExtraBold.ttf.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@keyframes scrollBackground {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+.biscuit-portal {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: repeating-linear-gradient(
+    45deg,
+    #ca3f3f 0%,
+    #ca3f3f 11.11%,
+    #e56a3b 11.11%,
+    #e56a3b 22.22%,
+    #e29c44 22.22%,
+    #e29c44 33.33%,
+    #999e56 33.33%,
+    #999e56 44.44%,
+    #629387 44.44%,
+    #629387 55.55%,
+    #517894 55.55%,
+    #517894 66.66%,
+    #4a5a8d 66.66%,
+    #4a5a8d 77.77%,
+    #9e569a 77.77%,
+    #9e569a 88.88%,
+    #c55496 88.88%,
+    #c55496 100%
+  );
+  background-size: 200% 200%;
+  animation: scrollBackground 20s linear infinite;
+  position: relative;
+  overflow: hidden;
+}
+
+.glossy-box {
+  width: calc(var(--gloss-box-vertical-size) * var(--gloss-box-horizontal-ratio));
+  height: var(--gloss-box-vertical-size);
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(var(--internal-blur-intensity));
+  backdrop-filter: blur(var(--internal-blur-intensity));
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: #333;
+  text-align: center;
+  padding: 10px; 
+  position: relative;
+  z-index: 2;
+  font-family: 'CreatoDisplay', sans-serif; 
+}
+
+.biscuit-portal::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(var(--external-blur-intensity));
+  backdrop-filter: blur(var(--external-blur-intensity));
+  z-index: 1;
+}
+
+.logo {
+  width: 200px; 
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .glossy-box {
+    -webkit-backdrop-filter: blur(var(--internal-blur-intensity));
+    backdrop-filter: blur(var(--internal-blur-intensity));
+  }
+
+  .biscuit-portal::before {
+    -webkit-backdrop-filter: blur(var(--external-blur-intensity));
+    backdrop-filter: blur(var(--external-blur-intensity));
+  }
+}
+
+h1 {
+  font-size: 150px;
+  margin: 5px 0;
+}
