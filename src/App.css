@@ -13,6 +13,7 @@
   font-style: normal;
 }
 
+
 @keyframes scrollBackground {
   0% {
     background-position: 0% 0%;
@@ -73,7 +74,7 @@
   align-items: center;
   color: #333;
   text-align: center;
-  padding: 10px; 
+  padding: 10px; /* Reduced padding */
   position: relative;
   z-index: 2;
   font-family: 'CreatoDisplay', sans-serif; 
